@@ -1,0 +1,8 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"oPlayer","order":15,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"sPlayer","order":17,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"Room1","order":16,"path":"rooms/Room1/Room1.yy",},
+  ],
+}

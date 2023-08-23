@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 2,
+  "defaultScriptType": 1,
   "Folders": [],
   "IncludedFiles": [],
   "isEcma": false,
@@ -18,8 +18,12 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+    {"id":{"name":"oClam","path":"objects/oClam/oClam.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"scr_controls","path":"scripts/scr_controls/scr_controls.yy",},},
+    {"id":{"name":"oGlobal","path":"objects/oGlobal/oGlobal.yy",},},
+    {"id":{"name":"sClam","path":"sprites/sClam/sClam.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

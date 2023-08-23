@@ -1,0 +1,1 @@
+global.collectClam = 0;

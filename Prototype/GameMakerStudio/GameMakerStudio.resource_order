@@ -1,8 +1,12 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"oClam","order":18,"path":"objects/oClam/oClam.yy",},
     {"name":"oPlayer","order":15,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"sPlayer","order":17,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"scr_controls","order":21,"path":"scripts/scr_controls/scr_controls.yy",},
+    {"name":"oGlobal","order":20,"path":"objects/oGlobal/oGlobal.yy",},
+    {"name":"sClam","order":19,"path":"sprites/sClam/sClam.yy",},
     {"name":"Room1","order":16,"path":"rooms/Room1/Room1.yy",},
   ],
 }

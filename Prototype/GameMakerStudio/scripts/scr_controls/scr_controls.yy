@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "GameMakerStudio",
-    "path": "GameMakerStudio.yyp",
+    "name": "Other",
+    "path": "folders/Other.yy",
   },
 }

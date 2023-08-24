@@ -1,5 +1,7 @@
 scr_controls();
 
+#region shortcuts
+
 if (key_escape) {
     game_end();
 }
@@ -8,6 +10,8 @@ if (key_escape) {
 if (key_r) {
     game_restart();
 }
+
+#endregion shortcuts
 
 
 #region movement

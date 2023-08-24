@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GameMakerStudio",
-    "path": "GameMakerStudio.yyp",
+    "name": "Object",
+    "path": "folders/Object.yy",
   },
   "parentObjectId": null,
   "persistent": false,

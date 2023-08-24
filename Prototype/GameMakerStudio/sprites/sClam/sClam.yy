@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "GameMakerStudio",
-    "path": "GameMakerStudio.yyp",
+    "name": "Sprite",
+    "path": "folders/Sprite.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

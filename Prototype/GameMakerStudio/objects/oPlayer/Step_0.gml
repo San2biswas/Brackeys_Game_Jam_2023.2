@@ -53,3 +53,16 @@ if (key_s) {
 
 
 #endregion movement
+
+
+if (place_meeting(x, y, oJelyfish)) {
+	pHDmgTmr = pHDmgTmr + 1;
+	if (pHDmgTmr > 60) {
+	    pHDmgTmr = 0;
+	}
+	
+}
+
+if (pHDmgTmr == 60) {
+    phealth = phealth - 2;
+}

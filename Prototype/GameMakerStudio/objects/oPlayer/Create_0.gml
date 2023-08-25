@@ -6,3 +6,5 @@ vspd = 0;
 grv = 0.5;
 dash = 0;
 dashMin = 0;
+phealth = 100;
+pHDmgTmr = 0;

@@ -7,4 +7,6 @@ grv = 0.5;
 dash = 0;
 dashMin = 0;
 phealth = 100;
-pHDmgTmr = 0;
+pJDmgTmr = 0;
+pSDmgTmr = 0;
+pWound = 0;

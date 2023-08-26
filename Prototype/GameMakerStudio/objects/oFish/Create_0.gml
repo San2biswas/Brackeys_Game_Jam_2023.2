@@ -1,2 +1,3 @@
 fishPos = 0;
-fishSpd = 0.02;
+fishSpd = 2;
+followAngle = 0;

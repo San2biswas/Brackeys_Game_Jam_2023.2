@@ -55,14 +55,61 @@ if (key_s) {
 #endregion movement
 
 
+#region jellyfish interaction
+
+
 if (place_meeting(x, y, oJelyfish)) {
-	pHDmgTmr = pHDmgTmr + 1;
-	if (pHDmgTmr > 60) {
-	    pHDmgTmr = 0;
+	image_blend = c_red;
+	pJDmgTmr = pJDmgTmr + 1;
+	if (pJDmgTmr > 60) {
+	    pJDmgTmr = 0;
 	}
 	
 }
+else
+{
+	image_blend = c_white;
+}
 
-if (pHDmgTmr == 60) {
+if (pJDmgTmr == 2) {
     phealth = phealth - 2;
 }
+
+
+#endregion jellyfish interaction
+
+
+#region shark interaction
+
+
+if (place_meeting(x, y, oShark)) {
+	image_blend = c_red;
+	pSDmgTmr = pSDmgTmr + 1;
+	if (pSDmgTmr > 60) {
+	    pSDmgTmr = 0;
+	}
+	
+}
+else
+{
+	image_blend = c_white;
+}
+
+if (pSDmgTmr == 2) {
+    phealth = phealth - 20;
+}
+
+
+#endregion shark interaction
+
+
+#region game finish
+
+
+if (phealth < 1) {
+    game_restart();
+}
+
+
+#endregion game finish
+

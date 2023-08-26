@@ -1,4 +1,5 @@
 scr_controls();
+image_blend = c_white;		// default color as default
 
 #region shortcuts
 
@@ -66,10 +67,6 @@ if (place_meeting(x, y, oJelyfish)) {
 	}
 	
 }
-else
-{
-	image_blend = c_white;
-}
 
 if (pJDmgTmr == 2) {
     phealth = phealth - 2;
@@ -89,10 +86,6 @@ if (place_meeting(x, y, oShark)) {
 	    pSDmgTmr = 0;
 	}
 	
-}
-else
-{
-	image_blend = c_white;
 }
 
 if (pSDmgTmr == 2) {

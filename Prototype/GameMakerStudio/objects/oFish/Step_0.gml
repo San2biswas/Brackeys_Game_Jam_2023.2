@@ -7,27 +7,10 @@ fPath = path_add();
 mp_potential_path(fPath, oFishFollow.x, oFishFollow.y, 4, 4, false)
 path_set_kind(fPath, 2)
 path_start(fPath, fishSpd, path_action_continue, true);
+image_angle = point_direction(x, y, oFishFollow.x, oFishFollow.y)
 
 
 #endregion follow path
-
-
-#region  follow angle
-
-
-followAngle = arctan2(oFishFollow.y-y, oFishFollow.x-x)
-//image_angle = radtodeg(followAngle);
-//image_angle = path_orientation;
-if (followAngle == abs(followAngle)) {
-    image_xscale = 1;
-}
-else
-{
-    image_xscale = -1;
-}
-
-
-#endregion  follow angle
 
 
 #region self collision

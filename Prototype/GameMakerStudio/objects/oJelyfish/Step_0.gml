@@ -11,6 +11,7 @@ if (place_meeting(x, y, oBubbles)) {
 }
 
 if (jfishHealth < 1) {
+	jfishHealth = 0;
     jfishDashTimerLimit = 15;
 	image_speed = 6;
 }

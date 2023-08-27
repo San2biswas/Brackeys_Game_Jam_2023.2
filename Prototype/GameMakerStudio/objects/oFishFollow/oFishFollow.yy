@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Object",
-    "path": "folders/Object.yy",
+    "name": "Generate",
+    "path": "folders/Generate.yy",
   },
   "parentObjectId": null,
   "persistent": false,

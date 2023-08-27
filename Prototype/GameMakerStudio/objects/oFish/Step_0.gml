@@ -17,10 +17,24 @@ image_angle = point_direction(x, y, oFishFollow.x, oFishFollow.y)
 
 
 if (place_meeting(x, y, oFish)) {
-    x = x + (random_range(-100, 100));
-    y = y + (random_range(-50, 50));
+	var _fShift = 2;
+    x = x + (random_range(-_fShift, _fShift));
+    y = y + (random_range(-_fShift, _fShift));
 }
 
 
 #endregion self collision
+
+
+#region fish eaten
+
+
+if (place_meeting(x, y, oShark)) {
+    instance_destroy(self);
+	global.fishCount --;
+}
+
+
+#endregion
+
 

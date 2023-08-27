@@ -8,9 +8,9 @@ if (key_escape) {
 }
 
 
-if (key_r) {
-    game_restart();
-}
+//if (key_r) {
+//    game_restart();
+//}
 
 #endregion shortcuts
 
@@ -69,7 +69,7 @@ if (place_meeting(x, y, oJelyfish)) {
 }
 
 if (pJDmgTmr == 2) {
-    phealth = phealth - 2;
+    phealth = phealth - 10;
 }
 
 
@@ -107,13 +107,26 @@ if (key_e) {
 #endregion bubble gun
 
 
-#region game finish
+#region game win
+
+
+if (global.fishCount > 49) {
+    room_goto(rm_gameEnd);
+}
+#endregion game win
+
+
+#region player death
 
 
 if (phealth < 1) {
-    game_restart();
+    layer_set_visible("insDead", true);
+    layer_set_visible("fxDead", true);
+	if (key_space) {
+	    game_restart();
+	}
 }
 
 
-#endregion game finish
+#endregion player death
 

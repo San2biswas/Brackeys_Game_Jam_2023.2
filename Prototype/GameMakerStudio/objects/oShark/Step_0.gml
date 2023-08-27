@@ -7,6 +7,7 @@ if (place_meeting(x, y, oBubbles)) {
 }
 
 if (sharkHealth < 1) {
+	sharkHealth = 0;
 	image_xscale = -1;
-	sharkSpd = 0.05;
+	sharkSpd = 0.03;
 }

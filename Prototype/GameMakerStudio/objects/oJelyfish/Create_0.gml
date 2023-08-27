@@ -1,3 +1,5 @@
 jfishDash = 15;
 jfishDashTimer = 0;
-jfishSpeed = 5;
+jfishHealth = 100;
+jfishDashTimerLimit = 90;
+image_speed = 1;

@@ -23,7 +23,6 @@ y = y + grv;
 
 // dash
 if (key_space) {
-    //y = y - (grv * 5);
 	dash = 10;
 }
 
@@ -52,6 +51,7 @@ if (key_s) {
 	y = y + (vdir * (spd + dash));
 }
 
+image_xscale = hdir;
 
 #endregion movement
 
@@ -94,6 +94,17 @@ if (pSDmgTmr == 2) {
 
 
 #endregion shark interaction
+
+
+#region bubble gun
+
+
+if (key_e) {
+    instance_create_depth(x, y, 10, oBubbles);
+}
+
+
+#endregion bubble gun
 
 
 #region game finish

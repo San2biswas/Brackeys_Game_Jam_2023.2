@@ -1,4 +1,4 @@
-spd = 5;
+spd = 2;
 hdir = 1;
 vdir = 1;
 hspd = 0;
